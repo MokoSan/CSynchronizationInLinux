@@ -16,11 +16,11 @@ The binaries will be created in the ``bin`` folder.
 
 | Example | File | Purpose |
 | ------- | ---- | ------- |
-| Mutexes | ``mutex.c`` | Demonstrates how the ``pthread_mutex_create``, ``pthread_mutex_lock``, ``pthread_mutex_unlock`` calls are used. |
-| Condition Variables | ``condition_variables.c`` | Demonstrates how ``pthread_cond_t`` based calls work for signaling. |
-| Dining Philosophers | ``dining_philosophers.c`` | Solves the [dining philosopher's problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem) using binary and counting semaphores. |
-| Producer Consumer | ``producer_consumer.c`` | Demonstrates the producer-consumer model in action using threads, a mutex and semaphores. | 
-| Epoll | ``epoll.c`` | Demonstrates the usage of epoll using the level trigged event notifications |
+| Mutexes | [``mutex.c``](src/mutex.c) | Demonstrates how the ``pthread_mutex_create``, ``pthread_mutex_lock``, ``pthread_mutex_unlock`` calls are used. |
+| Condition Variables | [``condition_variables.c``](src/condition_variables.c) | Demonstrates how ``pthread_cond_t`` based calls work for signaling. |
+| Dining Philosophers | [``dining_philosophers.c``](src/dining_philosophers.c) | Solves the [dining philosopher's problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem) using binary and counting semaphores. |
+| Producer Consumer | [``producer_consumer.c``](src/producer_consumer.c) | Demonstrates the producer-consumer model in action using threads, a mutex and semaphores. | 
+| Epoll | [``epoll.c``](src/epoll.c) | Demonstrates the usage of epoll using the level trigged event notifications |
 
 ## Motivation
 
