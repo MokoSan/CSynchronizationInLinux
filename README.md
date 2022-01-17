@@ -22,6 +22,7 @@ The binaries will be created in the ``bin`` folder.
 | Producer Consumer | [``producer_consumer.c``](src/producer_consumer.c) | Demonstrates the producer-consumer model in action using threads, a mutex and semaphores. | 
 | Epoll | [``epoll.c``](src/epoll.c) | Demonstrates the usage of epoll using the level trigged event notifications |
 | Thread Safe Stack | [``threadsafe_stack.c``](src/threadsafe_stack.c) | An implementation of a thread safe stack | 
+| Memory Barrier Usage | [``memory_barriers.c``](src/memory_barriers.c) | Demonstrating the usage of a memory barrier | 
 
 ## Motivation
 

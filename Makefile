@@ -2,7 +2,7 @@ CC      = gcc
 CFLAGS  = -I -Wall -lpthread
 BIN     = bin
 
-all: create_bin mutex condition_variables dining_philosophers epoll threadsafe_stack
+all: create_bin mutex condition_variables dining_philosophers epoll threadsafe_stack memory_barriers
 
 create_bin:
 	mkdir -p $(BIN) 
@@ -27,6 +27,9 @@ sleeping_barber:
 
 threadsafe_stack:
 	$(CC) src/threadsafe_stack.c $(CFLAGS) -o $(BIN)/threadsafe_stack
+
+memory_barriers:
+	$(CC) src/memory_barriers.c $(CFLAGS) -o $(BIN)/memory_barriers
 
 clean:
 	rm -rf ./bin

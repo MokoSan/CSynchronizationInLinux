@@ -9,8 +9,7 @@ pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;
 int done = 1;
 
 void* foo() {
-    pid_t tid = gettid();
-    printf("Thread ID: %d\n", tid);
+    printf("Thread ID: %ld\n", pthread_self());
 
     pthread_mutex_lock(&lock);
 
@@ -36,5 +35,7 @@ int main() {
     sleep(1);
     pthread_create(&tid2, NULL, foo, NULL);
     pthread_join(tid2, NULL);
+    pthread_mutex_destroy(&lock);
+    pthread_cond_destroy(&cond1);
     return 0;
 }
