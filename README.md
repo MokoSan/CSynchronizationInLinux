@@ -21,7 +21,7 @@ The binaries will be created in the ``bin`` folder.
 | Dining Philosophers | [``dining_philosophers.c``](src/dining_philosophers.c) | Solves the [dining philosopher's problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem) using binary and counting semaphores. |
 | Producer Consumer | [``producer_consumer.c``](src/producer_consumer.c) | Demonstrates the producer-consumer model in action using threads, a mutex and semaphores. | 
 | Epoll | [``epoll.c``](src/epoll.c) | Demonstrates the usage of epoll using the level trigged event notifications |
-| Thread Safe Stack | [``epoll.c``](src/threadsafe_stack.c) | An implementation of a thread safe stack | 
+| Thread Safe Stack | [``threadsafe_stack.c``](src/threadsafe_stack.c) | An implementation of a thread safe stack | 
 
 ## Motivation
 
