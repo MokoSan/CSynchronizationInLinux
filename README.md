@@ -20,10 +20,10 @@ The binaries will be created in the ``bin`` folder.
 | Condition Variables | [``condition_variables.c``](src/condition_variables.c) | Demonstrates how ``pthread_cond_t`` based calls work for signaling. |
 | Dining Philosophers | [``dining_philosophers.c``](src/dining_philosophers.c) | Solves the [dining philosopher's problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem) using binary and counting semaphores. |
 | Producer Consumer | [``producer_consumer.c``](src/producer_consumer.c) | Demonstrates the producer-consumer model in action using threads, a mutex and semaphores. | 
-| Epoll | [``epoll.c``](src/epoll.c) | Demonstrates the usage of epoll using the level trigged event notifications |
-| Thread Safe Stack | [``threadsafe_stack.c``](src/threadsafe_stack.c) | An implementation of a thread safe stack | 
-| Memory Barrier Usage | [``memory_barriers.c``](src/memory_barriers.c) | Demonstrating the usage of a memory barrier | 
-| Thread Safe Ringbuffer | [``threadsafe_ringbuffer.c``](src/threadsafe_ringbuffer.c) | An implementation of a thread safe ringbuffer | 
+| Epoll | [``epoll.c``](src/epoll.c) | Demonstrates the usage of epoll using the level trigged event notifications. |
+| Thread Safe Stack | [``threadsafe_stack.c``](src/threadsafe_stack.c) | An implementation of a thread safe stack. | 
+| Memory Barrier Usage | [``memory_barriers.c``](src/memory_barriers.c) | Demonstrating the usage of a memory barrier. | 
+| Thread Safe Ringbuffer | [``threadsafe_ringbuffer.c``](src/threadsafe_ringbuffer.c) | An implementation of a thread safe ringbuffer. | 
 
 ## Motivation
 
